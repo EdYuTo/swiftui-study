@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2344729E297D8EF1009B1268 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344729D297D8EF1009B1268 /* WeatherView.swift */; };
+		2344729E297D8EF1009B1268 /* WeatherButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344729D297D8EF1009B1268 /* WeatherButtonView.swift */; };
 		234472A0297D8F0F009B1268 /* BackgroudGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344729F297D8F0F009B1268 /* BackgroudGradientView.swift */; };
 		234472A2297D8F3A009B1268 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234472A1297D8F3A009B1268 /* HeaderView.swift */; };
 		234472A4297D8F54009B1268 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234472A3297D8F54009B1268 /* WeatherDayView.swift */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2344729D297D8EF1009B1268 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		2344729D297D8EF1009B1268 /* WeatherButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButtonView.swift; sourceTree = "<group>"; };
 		2344729F297D8F0F009B1268 /* BackgroudGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroudGradientView.swift; sourceTree = "<group>"; };
 		234472A1297D8F3A009B1268 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		234472A3297D8F54009B1268 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		2344729C297D8EB9009B1268 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2344729D297D8EF1009B1268 /* WeatherView.swift */,
+				2344729D297D8EF1009B1268 /* WeatherButtonView.swift */,
 				2344729F297D8F0F009B1268 /* BackgroudGradientView.swift */,
 				234472A1297D8F3A009B1268 /* HeaderView.swift */,
 				234472A3297D8F54009B1268 /* WeatherDayView.swift */,
@@ -253,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				234472A2297D8F3A009B1268 /* HeaderView.swift in Sources */,
-				2344729E297D8EF1009B1268 /* WeatherView.swift in Sources */,
+				2344729E297D8EF1009B1268 /* WeatherButtonView.swift in Sources */,
 				234472A4297D8F54009B1268 /* WeatherDayView.swift in Sources */,
 				234472A0297D8F0F009B1268 /* BackgroudGradientView.swift in Sources */,
 				234FC4372905D501002192AF /* ContentView.swift in Sources */,
