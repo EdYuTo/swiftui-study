@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		234472CC297DB022009B1268 /* frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234472CB297DB022009B1268 /* frameworksApp.swift */; };
+		234472CC297DB022009B1268 /* FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234472CB297DB022009B1268 /* FrameworksApp.swift */; };
 		234472CE297DB022009B1268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234472CD297DB022009B1268 /* ContentView.swift */; };
 		234472D0297DB023009B1268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234472CF297DB023009B1268 /* Assets.xcassets */; };
 		234472D3297DB023009B1268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234472D2297DB023009B1268 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		234472C8297DB022009B1268 /* frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		234472CB297DB022009B1268 /* frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworksApp.swift; sourceTree = "<group>"; };
+		234472CB297DB022009B1268 /* FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksApp.swift; sourceTree = "<group>"; };
 		234472CD297DB022009B1268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		234472CF297DB023009B1268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234472D2297DB023009B1268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		234472CA297DB022009B1268 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				234472CB297DB022009B1268 /* frameworksApp.swift */,
+				234472CB297DB022009B1268 /* FrameworksApp.swift */,
 				234472CD297DB022009B1268 /* ContentView.swift */,
 				234472CF297DB023009B1268 /* Assets.xcassets */,
 				234472D1297DB023009B1268 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				234472CE297DB022009B1268 /* ContentView.swift in Sources */,
-				234472CC297DB022009B1268 /* frameworksApp.swift in Sources */,
+				234472CC297DB022009B1268 /* FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
