@@ -10,16 +10,12 @@ import SwiftUI
 struct FrameworkDetailView: View {
     
     let framework: Framework
-    var closeAction: (() -> Void)? = nil
     
     @State
     private var isShowingWebView = false
     
     var body: some View {
         VStack {
-            FrameworkCloseButtonView {
-                closeAction?()
-            }
             Spacer()
             FrameworkItemView(framework: framework)
             Text(framework.description)

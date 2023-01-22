@@ -8,14 +8,8 @@
 import SwiftUI
 
 final class FrameworkListViewModel: ObservableObject {
-    @Published
-    var isShowingDetailView = false
     
-    var selectedFramework: Framework? {
-        didSet {
-            isShowingDetailView = selectedFramework != nil
-        }
-    }
+    let frameworks = FrameworksDataMock.frameworks
     
     let columns = [
         GridItem(.flexible()),

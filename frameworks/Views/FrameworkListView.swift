@@ -9,30 +9,23 @@ import SwiftUI
 
 struct FrameworkListView: View {
     
-    @StateObject
-    var viewModel = FrameworkListViewModel()
+    let viewModel = FrameworkListViewModel()
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                LazyVGrid(columns: viewModel.columns) {
-                    ForEach(FrameworksDataMock.frameworks, id: \.name) { framework in
+            List {
+                ForEach(viewModel.frameworks, id: \.name) { framework in
+                    NavigationLink(
+                        destination: FrameworkDetailView(framework: framework)
+                    ) {
                         FrameworkItemView(framework: framework)
-                            .onTapGesture {
-                                viewModel.selectedFramework = framework
-                            }
                     }
                 }
             }
+            .listStyle(.plain)
             .navigationTitle("🍎 Frameworks")
-            .sheet(isPresented: $viewModel.isShowingDetailView) {
-                FrameworkDetailView(
-                    framework: viewModel.selectedFramework ?? FrameworksDataMock.sampleFramework
-                ) {
-                    viewModel.selectedFramework = nil
-                }
-            }
         }
+        .accentColor(Color(.label))
     }
 }
 
