@@ -1,0 +1,13 @@
+xcuserdata/
+
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+.build/
+
+iOSInjectionProject/
+
+.DS_Store
+.AppleDouble
+.LSOverride
