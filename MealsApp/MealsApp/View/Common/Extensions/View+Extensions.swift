@@ -9,7 +9,7 @@ import SwiftUI
 
 extension View {
     @inlinable
-    public func frame(widthScale: CGFloat = 1, heightScale: CGFloat = 1, alignment: Alignment = .center) -> some View {
+    func frame(widthScale: CGFloat = 1, heightScale: CGFloat = 1, alignment: Alignment = .center) -> some View {
         frame(width: .screenWidth(widthScale), height: .screenHeight(heightScale), alignment: alignment)
     }
 }
