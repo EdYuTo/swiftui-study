@@ -87,7 +87,7 @@
 		234FC4282905D501002192AF = {
 			isa = PBXGroup;
 			children = (
-				234FC4332905D501002192AF /* weather */,
+				234FC4332905D501002192AF /* Weather */,
 				234FC4322905D501002192AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		234FC4332905D501002192AF /* weather */ = {
+		234FC4332905D501002192AF /* Weather */ = {
 			isa = PBXGroup;
 			children = (
 				2344729C297D8EB9009B1268 /* Views */,
@@ -111,7 +111,7 @@
 				234FC4382905D502002192AF /* Assets.xcassets */,
 				234FC43A2905D502002192AF /* Preview Content */,
 			);
-			path = weather;
+			path = Weather;
 			sourceTree = "<group>";
 		};
 		234FC43A2905D502002192AF /* Preview Content */ = {
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 234FC42C2905D501002192AF /* Build configuration list for PBXProject "weather" */;
+			buildConfigurationList = 234FC42C2905D501002192AF /* Build configuration list for PBXProject "Weather" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		234FC42C2905D501002192AF /* Build configuration list for PBXProject "weather" */ = {
+		234FC42C2905D501002192AF /* Build configuration list for PBXProject "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				234FC4532905D502002192AF /* Debug */,
