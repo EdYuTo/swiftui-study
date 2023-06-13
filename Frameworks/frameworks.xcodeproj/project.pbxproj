@@ -52,7 +52,7 @@
 		234472BF297DB022009B1268 = {
 			isa = PBXGroup;
 			children = (
-				234472CA297DB022009B1268 /* frameworks */,
+				234472CA297DB022009B1268 /* Frameworks */,
 				234472C9297DB022009B1268 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		234472CA297DB022009B1268 /* frameworks */ = {
+		234472CA297DB022009B1268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				235C7829297DDAAE00032659 /* Info.plist */,
@@ -77,7 +77,7 @@
 				234472CF297DB023009B1268 /* Assets.xcassets */,
 				234472D1297DB023009B1268 /* Preview Content */,
 			);
-			path = frameworks;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		234472D1297DB023009B1268 /* Preview Content */ = {
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 234472C3297DB022009B1268 /* Build configuration list for PBXProject "frameworks" */;
+			buildConfigurationList = 234472C3297DB022009B1268 /* Build configuration list for PBXProject "Frameworks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		234472C3297DB022009B1268 /* Build configuration list for PBXProject "frameworks" */ = {
+		234472C3297DB022009B1268 /* Build configuration list for PBXProject "Frameworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				234472D4297DB023009B1268 /* Debug */,
