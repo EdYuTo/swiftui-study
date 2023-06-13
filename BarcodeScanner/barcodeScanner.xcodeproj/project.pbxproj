@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 238D4AF4297F46CC007FF0D7 /* Build configuration list for PBXProject "barcodeScanner" */;
+			buildConfigurationList = 238D4AF4297F46CC007FF0D7 /* Build configuration list for PBXProject "BarcodeScanner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -380,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		238D4AF4297F46CC007FF0D7 /* Build configuration list for PBXProject "barcodeScanner" */ = {
+		238D4AF4297F46CC007FF0D7 /* Build configuration list for PBXProject "BarcodeScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				238D4B05297F46CD007FF0D7 /* Debug */,
