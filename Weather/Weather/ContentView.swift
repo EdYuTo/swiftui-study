@@ -73,7 +73,7 @@ struct ContentView: View {
                         action: {
                             isNight = !isNight
                         },
-                        title: "Hello"
+                        title: "Change Theme"
                     )
                 )
                 Spacer()
